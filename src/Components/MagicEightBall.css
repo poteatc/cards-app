@@ -1,0 +1,57 @@
+.outer-frame {
+    flex: auto;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    align-content: center;
+}
+
+.outer-circle {
+    /* Ellipse 1 */
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    background: #000000;
+}
+
+.inner-frame {
+    /* Frame 6 */
+    position: absolute;
+    width: 354px;
+    height: 354px;
+    left: 73px;
+    top: 73px;
+}
+
+.inner-circle {
+    /* Ellipse 2 */
+    position: absolute;
+    width: 354px;
+    height: 354px;
+    left: 1px;
+    top: 1px;
+    background: #6F6F6F;
+    box-shadow: inset 5px 5px 10px 6px rgba(0, 0, 0, 0.25);
+}
+
+.triangle-frame {
+    /* Frame 7 */
+    position: absolute;
+    left: 99px;
+    right: 107px;
+    top: 109px;
+    bottom: 106px;
+}
+
+.triangle {
+    /* Polygon 1 */
+    position: absolute;
+    width: 139px;
+    height: 139px;
+    left: 4px;
+    top: 0px;
+    background: #00A3FF;
+    box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.25);
+}

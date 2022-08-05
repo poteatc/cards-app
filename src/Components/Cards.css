@@ -1,0 +1,53 @@
+body {
+    background: #999;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.white-card {
+    background: #fff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 250px;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 10%;
+    padding: 10px;
+    box-shadow: 5px 5px 3px;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+
+.white-card:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 3px 3px 1px;
+    -webkit-transform: translate(2px, 2px);
+    -moz-transform: translate(2px, 2px);
+    -ms-transform: translate(2px, 2px);
+    -o-transform: translate(2px, 2px);
+}
+
+.white-card-text {
+    display: grid;
+    grid-template-rows: 100px 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.white-card .card-logo {
+    position: relative;
+    float: left;
+    bottom: 10px;
+    margin-right: 50px;
+    margin-top: 150px;
+}
